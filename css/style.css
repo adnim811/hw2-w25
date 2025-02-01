@@ -1,0 +1,103 @@
+/* General Body Styling */
+body {
+    font-family: Arial, Verdana, sans-serif;
+    background-color: #000000; /* Black */
+    color: #FFFFFF; /* White */
+    margin: 20px 20px 0 20px;
+}
+
+/* h1 Styling */
+h1 {
+    font-size: 42px;
+    text-align: center;
+    padding: 15px;
+}
+
+/* h2 Styling */
+h2 {
+    font-size: 30px;
+    color: #0D0D0D; /* Dark Gray */
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 24px;
+    padding: 10px 0 0 10px; /* Top and Left Only */
+}
+
+/* Image Styling */
+img {
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+    border: 10px dashed #FFFFFF; /* White Dashed Border */
+}
+
+/* Div Styling */
+div {
+    min-height: 125px;
+    padding: 20px;
+}
+
+/* Introduction Class Styling */
+.introduction {
+    border-radius: 15px;
+    margin-top: 15px;
+    line-height: 2; /* Double Spacing */
+    border: 3px solid #FFFFFF; /* Add White Border Around the Introduction */
+}
+
+/* Red Div Styling */
+.red {
+    background-color: #FF0000; /* Red */
+    text-align: right;
+    margin-left: 50px; /* Left Margin */
+    border-left: 5px solid #FFFFFF; /* 5px Left Border */
+    border-bottom: 2px solid #FFFFFF; /* 2px Bottom Border */
+}
+
+/* Blue Div Styling */
+.blue {
+    background-color: #0000FF; /* Blue */
+    text-align: left;
+    margin-right: 50px; /* Right Margin */
+    border-right: 5px solid #FFFFFF; /* 5px Right Border */
+    border-top: 2px solid #FFFFFF; /* 2px Top Border */
+    color: #C4C4C4; /* Light Gray Text for Contrast */
+}
+
+/* Yellow Div Styling */
+.yellow {
+    background-color: #FFFF00; /* Yellow */
+    text-align: right;
+    margin-left: 50px; /* Left Margin */
+    border-left: 5px solid #FFFFFF; /* 5px Left Border */
+    border-bottom: 2px solid #FFFFFF; /* 2px Bottom Border */
+    color: #707070; /* Dark Gray Text for Contrast */
+}
+
+/* Green Div Styling */
+.green {
+    background-color: #008500; /* Green */
+    text-align: left;
+    margin-right: 50px; /* Right Margin */
+    border-right: 5px solid #FFFFFF; /* 5px Right Border */
+    border-top: 2px solid #FFFFFF; /* 2px Top Border */
+    color: #FFFFFF; /* White Text for Contrast */
+}
+
+/* Footer Styling */
+footer {
+    background: linear-gradient(0deg, #000000, #0000FF 25%, #0066FF 70%, #000000);
+    border: 5px solid #FFFFFF; /* White Border */
+}
+
+footer p {
+    font-size: 20px;
+    text-align: right;
+    padding: 15px 15px 15px 0; /* Top, Right, Bottom Only */
+}
+
+.blue h2 {
+    color: #C4C4C4; /* Light Gray for Better Contrast */
+}
